@@ -9,7 +9,7 @@ function UserCard(props) {
 
     <img src={user.imgUrl} alt={user.name} />
     <p>namn: {user.name} {user.isAdmin ? '(Admin)' : ''}</p>
-    <p>ålder: {user.age} SEK</p>
+    <p>ålder: {user.age} år</p>
     <p>email: {user.email}</p>
   </div>);
 }
